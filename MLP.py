@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from typing import List
+import matplotlib.pyplot as plt
 
 class MLP:
     def __init__(self, layers: List[int], learning_rate: float = 0.01, activation: str = 'sigmoid', regularization: str = None, lambda_reg: float = 0.01):
